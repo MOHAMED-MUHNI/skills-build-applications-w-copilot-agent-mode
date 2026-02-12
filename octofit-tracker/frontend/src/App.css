@@ -1,0 +1,58 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.navbar-brand img {
+  vertical-align: middle;
+}
+
+.card {
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.table th {
+  background-color: #343a40;
+  color: white;
+}
+
+.badge {
+  font-size: 0.9em;
+}
+
+footer {
+  margin-top: auto;
+}
+
+/* Custom colors for OctoFit */
+.bg-octofit {
+  background-color: #2ea44f;
+}
+
+.text-octofit {
+  color: #2ea44f;
+}
+
+/* Navigation active link */
+.nav-link.active {
+  font-weight: bold;
+  border-bottom: 2px solid #fff;
+}
+
+/* Hero section */
+.display-4 {
+  color: #333;
+}
+
+.lead {
+  color: #666;
+}
