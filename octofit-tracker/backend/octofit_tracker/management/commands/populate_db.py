@@ -1,7 +1,7 @@
 from django.core.management.base import BaseCommand
 from octofit_tracker.models import User, Team, Activity, Workout, Leaderboard
 from datetime import date, timedelta
-from bson import ObjectId
+
 
 class Command(BaseCommand):
     help = 'Populate the octofit_db database with test data'
