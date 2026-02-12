@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-(tlgg^41$7x5n4f9taa4+hqcanglo3^9!bwx@_n7wmwnf6s3ni
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'corsheaders',
+    'djongo',
     'octofit_tracker',
 ]
 
